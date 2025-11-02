@@ -1,6 +1,13 @@
 # Compiled class file
 *.class
+# Eclipse spcific
+*.classpath
+*.project
+*.settings/
 
+# Build output
+bin/
+target/
 # Log file
 *.log
 
