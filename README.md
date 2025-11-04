@@ -109,7 +109,8 @@ The AGV Charging and Task Execution simulations provide a clear understanding of
 ---
 Code Output: 
 
-<img width="1920" height="1080" alt="Screenshot (18)" src="https://github.com/user-attachments/assets/568d3cdf-d7bf-4027-9200-e2d4cb387663" />
+<img width="1920" height="1080" alt="Screenshot (18)" src="https://github.com/user-attachments/assets/8e98a229-b961-4d21-9d3d-5eaec4a6f2ff" />
+
 
 ---
 
