@@ -1,10 +1,10 @@
 # Homework_Assignment_3 Java Concurrency
 
 📘 Introduction
-This project demonstrates how concurrency works in Java by simulating two real-world scenarios:
+This Assignment demonstrates how concurrency works in Java by simulating two real-world scenarios:
 Multiple Automated Guided Vehicles (AGVs) trying to charge at a limited number of charging stations.
 Several tasks being performed at the same time using a thread pool.
-Through these simulations, the project explores how Java manages multiple operations simultaneously using threads, semaphores, and executors ensuring efficiency, safety, and responsiveness.
+Through these simulations, the assignment explores how Java manages multiple operations simultaneously using threads, semaphores, and executors ensuring efficiency, safety, and responsiveness.
 
 ---
 
@@ -21,7 +21,7 @@ Theoretical Answers: Java Concurrency
 1️⃣ Threads
 A thread is the smallest unit of execution in Java.
 It allows multiple operations to run concurrently.
-In this project, each AGV or task runs as a separate thread, simulating independent actions happening at the same time.
+In this assignment, each AGV or task runs as a separate thread, simulating independent actions happening at the same time.
 
 2️⃣ Semaphores
 A semaphore controls access to shared resources.
@@ -102,7 +102,7 @@ How Java’s concurrency framework helps build scalable, responsive systems.
 ---
 
 🧾 Conclusion
-This project successfully simulates real-world concurrency scenarios using Java.
+This assignment successfully simulates real-world concurrency scenarios using Java.
 It demonstrates how multiple threads can work together efficiently while avoiding conflicts through synchronization and controlled resource access.
 The AGV Charging and Task Execution simulations provide a clear understanding of how concurrency improves performance and responsiveness in software systems.
 
