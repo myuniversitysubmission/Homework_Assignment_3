@@ -116,13 +116,13 @@ Code Output:
 
 👨‍💻 Team Contribution
 
-Adesh: Implemented AGV Charging simulation using threads and semaphores.
+Adesh: Thread Concept & Class Diagram
 
-Dnyaneshwar: Developed Task Execution simulation using ExecutorService.
+Dnyaneshwar: Synchronization & Semaphore Concept
 
-Harsha: Designed thread control, synchronization logic, and debugging.
+Harsha: ExecutorService & Thread Pool Management
 
-Anil: Prepared documentation, explanations, and output analysis.
+Anil: Performance, Synchronization Issues & Technical Insights
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Theory Questions & Answers: 
@@ -147,6 +147,10 @@ Concurrency in Java can also be divided into blocking and non-blocking approache
 In a blocking algorithm, a thread must wait until the resource it needs becomes available. Typical examples include synchronized blocks, the wait() and join() methods, or the use of explicit locks. The main benefit of blocking code is simplicity — it is easy to understand and reason about because one thread waits its turn. However, blocking threads waste CPU time while they are idle, and they can easily create bottlenecks or even deadlocks if several threads wait on each other.
 A non-blocking algorithm allows threads to continue working without waiting. Instead of locking, it uses atomic operations such as compareAndSet() from the java.util.concurrent.atomic package. These algorithms continuously attempt to update shared data safely without stopping other threads. Non-blocking designs are faster, avoid deadlocks, and scale better under heavy load, but they are harder to design correctly and can use more CPU resources because threads may retry operations many times.
 Overall, blocking algorithms are simpler but slower under heavy concurrency, while non-blocking algorithms provide high performance and safety at the cost of greater complexity.
+
+---
+Class Diagram:
+<img width="1553" height="1079" alt="Blank diagram (4)" src="https://github.com/user-attachments/assets/48e6507d-fc1a-4e7e-99fe-b4dfdc8c0f54" />
 
 ---
 Vide Explantion Link:
